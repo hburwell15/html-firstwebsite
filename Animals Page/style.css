@@ -1,0 +1,44 @@
+html {
+    font-size: 20px;
+
+}
+
+body {
+    background-color: seashell;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px black;
+    border-right: 1px black;
+}
+
+.title {
+    color: rgb(8, 51, 168);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+} 
+
+.subtitle {
+    color: rgb(154, 120, 290);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+} 
+
+.link {
+    list-style: none;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+th, td, caption {
+    border: 1px cadetblue;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
