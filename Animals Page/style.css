@@ -3,15 +3,25 @@ html {
 
 }
 
+.banner {
+    width: 100%;
+    display: block
+}
+
+.banner > .banner_image {
+    width: 100%;
+    display: block
+}
+
 body {
     background-color: seashell;
-    min-height: 100vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-    border-left: 1px black;
-    border-right: 1px black;
+    padding: 0;
+    margin: 0;
+
+
 }
+
+
 
 .title {
     color: rgb(8, 51, 168);
@@ -29,11 +39,23 @@ body {
     
 } 
 
+.pictures_display {
+   
+    
+    
+}
+
 .link {
-    list-style: none;
+    font-size: 28px;
     color: purple;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+
+
+.about_this_page {
+    
 }
 
 th, td, caption {
