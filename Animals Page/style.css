@@ -5,20 +5,21 @@ html {
 
 .banner {
     width: 100%;
-    display: block
+    padding-bottom: -10px;
 }
 
 .banner > .banner_image {
     width: 100%;
-    display: block
+}
+
+.article {
+    padding: 20px;
+    margin: 20px;
 }
 
 body {
     background-color: seashell;
-    padding: 0;
     margin: 0;
-
-
 }
 
 
@@ -28,8 +29,46 @@ body {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-left: 80px;
+    text-align: center;
     
 } 
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+        "image1 image2 image3 image4"
+        "text text text text";
+    text-align: center;
+}
+
+.image1 {
+    grid-area: image1;
+    height: 250px; 
+}
+
+.image2 {
+    grid-area: image2;
+    height: 250px;
+}
+
+.image3 {
+    grid-area: image3; 
+    height: 250px;
+}
+
+.image4 {
+    grid-area: image4;
+    height: 250px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .subtitle {
     color: rgb(154, 120, 290);
@@ -39,11 +78,10 @@ body {
     
 } 
 
-.pictures_display {
-   
-    
-    
+.subheader {
+    text-align: center;
 }
+
 
 .link {
     font-size: 28px;
